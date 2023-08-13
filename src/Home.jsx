@@ -109,7 +109,7 @@ const Home = () => {
                 <button className="btn btn-primary" onClick={handleGetStarted}>Get Started</button>
               </div>
             </div>
-            {/* Premium Plan */}
+       
             <div className="col-md-4">
               <div
                 className={`pricing-card text-center ${selectedPlan === 'Premium Plan' ? 'selected' : ''}`}
